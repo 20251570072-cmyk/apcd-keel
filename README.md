@@ -34,10 +34,9 @@ Every ship has a keel — the structural backbone that holds it upright. Dubai a
 ## Team
 | Name | Role |
 |---|---|
-| [Your Name] | Lead Developer — KEEL Core Engine |
-| Hafsa Faisal | UX Lead — Officer Workflow & Safety |
-| [Tech Teammate] | Developer — KEEL Circular & Offline Cache |
-| [Non-tech Teammate] | Research & Pitch |
+| Meerab Bint Irshad | Developer: KEEL Core Engine |
+| Hafsa Faisal | Developer: Officer Workflow & Safety |
+| Shifa Fathima, Ansiya Ameen |UX, Research & Pitch |
 
 ## Setup (Local)
 ```bash
