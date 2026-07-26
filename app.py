@@ -1,13 +1,4 @@
 
-**Commit message:** `chore: add Python dependencies`
-
----
-
-### 3. `app.py` (The KEEL Dashboard)
-
-Create this file with exact content:
-
-```python
 import streamlit as st
 
 st.set_page_config(page_title="KEEL | APCD Intelligence", layout="wide")
