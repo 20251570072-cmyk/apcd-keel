@@ -22,7 +22,7 @@ KEEL is a modular intelligence core that powers three operational modules:
 | KEEL Flow | 🟡 Roadmap | Workflow RPA automation (Phase 3) |
 
 ## Why "KEEL"?
-Every ship has a keel — the structural backbone that holds it upright. Dubai automates cranes. **APCD automates the keel** — the decisions that hold everything up.
+Every ship has a keel: the structural backbone that holds it upright. Dubai automates cranes. **APCD automates the keel** : the decisions that hold everything up.
 
 ## Tech Stack
 - **Data:** Pandas, SQLite
