@@ -58,5 +58,36 @@ CREATE TABLE export_certificates(
   product_desc_en TEXT,
   product_desc_ar TEXT,
   year INTEGER,
-  transportation_method TEXT
+  transport_method TEXT
+  transport_method_ar TEXT,
+  customer_id TEXT,
+  invoice_date TEXT,
+  final_destination TEXT,
+  source_file TEXT
+);
+
+-- 6| Export Certificates by Product
+CREATE TABLE export_by_product (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  serial_no TEXT,
+  country_en TEXT,
+  amount_aed REAL,
+  cert_month INTEGER,
+  cert_date INTEGER,
+  cert_year INTEGER,
+  hs_code TEXT,
+  hs_desc_en TEXT,
+  hs_desc_ar TEXT,
+  transport_ar TEXT,
+  transport_en TEXT,
+  coo_invoice TEXT,
+  invoice_date TEXT,
+  final_destination_en TEXT,
+  final_destination_ar TEXT,
+  source_file TEXT
+);
+
+--7| Re-export certifcates
+CREATE TABLE reexport_certificated (
+  
 );
