@@ -129,20 +129,20 @@ CREATE TABLE company_research (
 
 --10| AI generated country trust scores
 CREATE TABLE country_trust_scores(
- id INTEGER PRIMARY KEY AUTOINCREMENT,
- country_en TEXT,
- year INTEGER,
- quarter INTEGER,
- trust_score REAL,
- reliability_tier TEXT,
- feature_consistency REAL,
- feature_volume_stability REAL,
- feature_regularity REAL,
- feature_reexport_ratio REAL,
- feature_avg_invoice_value REAL,
- feature_hs_diversity REAL,
- created_at DATE DEFAULT CURRENT_DATE,
- UNIQUE(country_en, year, quarter) 
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  country_en TEXT,
+  year INTEGER,
+  quarter INTEGER,
+  trust_score REAL,
+  reliability_tier TEXT,
+  feature_consistency REAL,
+  feature_volume_stability REAL,
+  feature_regularity REAL,
+  feature_reexport_ratio REAL,
+  feature_avg_invoice_value REAL,
+  feature_hs_diversity REAL,
+  created_at DATE DEFAULT CURRENT_DATE,
+  UNIQUE(country_en, year, quarter)
 );
 
 --11| AI generated product circular matches
