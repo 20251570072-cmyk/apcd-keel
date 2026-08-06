@@ -563,7 +563,7 @@ def load_reexport(file_path):
 
 
 def load_economic_permits(file_path):
-    """Image 19: Real company names and permit data."""
+    """ Real company names and permit data."""
     df = safe_read_excel(file_path)
     if df is None:
         return 0
@@ -642,7 +642,7 @@ def load_health_certificates(file_path):
 
 
 def load_waste_stream(file_path):
-    """Image 22: Waste data."""
+    """ Waste data."""
     df = safe_read_excel(file_path)
     if df is None:
         return 0
