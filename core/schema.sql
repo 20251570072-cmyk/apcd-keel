@@ -11,7 +11,6 @@ CREATE TABLE IF NOT EXISTS trade_volumes (
     value_aed REAL,
     weight_ton REAL,
     source_file TEXT,
-    UNIQUE(year, quarter, region_en, trade_type)
 );
 
 CREATE INDEX IF NOT EXISTS idx_trade_region ON trade_volumes(region_en);
@@ -24,7 +23,6 @@ CREATE TABLE IF NOT EXISTS turnaround_times (
     quarter INTEGER,
     ttt_hours REAL,
     source_file TEXT,
-    UNIQUE(year, quarter)
 );
 
 -- 3. Port capacity metrics
@@ -37,7 +35,6 @@ CREATE TABLE IF NOT EXISTS port_capacity (
     teu_count INTEGER,
     vor_rate REAL,
     source_file TEXT,
-    UNIQUE(year, quarter)
 );
 
 -- 4. Violations & warnings
