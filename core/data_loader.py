@@ -516,7 +516,7 @@ def load_export_by_product(file_path):
 
 
 def load_reexport(file_path):
-    """Image 18: Re-export certificate data."""
+    """Re-export certificate data."""
     df = safe_read_excel(file_path)
     if df is None:
         return 0
